@@ -1,5 +1,7 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Reviews from './Reviews';
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
     <div className="Parentbox">
       <FotoProduk />
       <ProdukInfo isDiskon="coming" title="Maternal Disaster" cate="VARSITY" />
+      <Reviews />
     </div>
   );
 }
